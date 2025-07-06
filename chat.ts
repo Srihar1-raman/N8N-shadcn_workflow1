@@ -37,7 +37,7 @@
 //   const { question } = req.body;
 
 //   try {
-//     const webhookURL = "https://qubezz.app.n8n.cloud/webhook-test/chatbot";
+//     const webhookURL = "https://----.app.n8n.cloud/webhook-test/chatbot";
 //     const n8nRes = await fetch(webhookURL, {
 //       method: "POST",
 //       headers: { "Content-Type": "application/json" },
@@ -83,7 +83,7 @@
 //   }
 
 //   try {
-//     const n8nWebhookURL = "https://qubezz.app.n8n.cloud/webhook-test/chatbot";
+//     const n8nWebhookURL = "https://-----.app.n8n.cloud/webhook-test/chatbot";
 
 //     const response = await fetch(n8nWebhookURL, {
 //       method: "POST",
@@ -116,7 +116,7 @@
 //   }
 
 //   try {
-//     const n8nWebhookURL = "https://qubezz.app.n8n.cloud/webhook-test/chatbot";
+//     const n8nWebhookURL = "https://-----.app.n8n.cloud/webhook-test/chatbot";
 
 //     const response = await fetch(n8nWebhookURL, {
 //       method: "POST",
@@ -160,7 +160,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
-    const n8nWebhookURL = "https://qubezz.app.n8n.cloud/webhook-test/chatbot";
+    const n8nWebhookURL = "https://-----.app.n8n.cloud/webhook-test/chatbot";
 
     const response = await fetch(n8nWebhookURL, {
       method: "POST",
